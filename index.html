@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/E3-js/css/style.css">
-    <title>E3</title>
+    <link rel="stylesheet" href="E4-js/css/style.css">
+    <title>Pizza Loca</title>
 </head>
 <body>
-    <h2 class="nombre_h2">Pizza: <span class="pizza"></span></h2>
-    <h4 class="precio_h4">Precio: $<span class="precio"></span></h4>
-    <span class="error">Esa Pizza No Existe Loco</span>
-    <div class="container-input">
-        <label for="numero">Numero de la pizza:</label>
-        <input type="number" name="numero" id="numero-de-pizza">
+    <section class="buscar__container">
+        <div class="buscar__content">
+            <input type="text" id="inputBuscar" class="buscar__txt" placeholder="Buscar una pizza">
+            <button id="buscar" class="buscar__btn">Buscar</button>
+        </div>
+        <div class="card__pizza-container">
+            <!-- <div class="card__pizza-content">
+                <p class="card__pizza-name">Pizza: <span id="pizza">Proboleta</span></p>
+                <img src="E4-js/img/porcion.jpg" alt="img-pizza" class="card__pizza-img">
+                <span class="card__pizza-precio">$250</span>
+                <p class="card__pizza-ingrediente">Ingredicentes:</p>
+                <span class="card__pizza-ingredientes-contenido">salsa,dsdsdsqueso,aceitunas,ternera</span>
+            </div> -->
+        </div>
         
-    </div>
-    <button class="consulta">Consultar</button>
-    <script src="/E3-js/E3.js"></script>
+    </section>
+    <script src="E4-js/E4.js"></script>
 </body>
 </html>
