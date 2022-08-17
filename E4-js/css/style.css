@@ -70,7 +70,7 @@ body{
 .card__pizza-content{
     position: relative;
     border-radius: 2rem;
-    background: #14141493;
+    background: #181818;
     min-height: 45vh;
     min-width: 15rem;
     display: flex;
@@ -95,7 +95,9 @@ body{
     top: 3rem;
 }
 .card__pizza-ingrediente{
-    color: white;
+    color: black;
+    background-color: #ffb80396;
+    padding: 0 0.5rem;
     position: absolute;
     font-size: 1.5rem;
     top: 9rem; 

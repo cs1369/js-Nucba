@@ -33,6 +33,12 @@ const pizzas = [{
     nombre:"anana",
     ingredientes:["salsa","queso","aceitunas","anana"],
     precio: 600
+},
+{
+    id:7,
+    nombre:"anana",
+    ingredientes:["salsa","queso","aceitunas","anana"],
+    precio: 600
 }
 ];
 const btnBuscar=document.getElementById("buscar");
@@ -63,5 +69,6 @@ function imprimir(valores){
 }
 
 btnBuscar.addEventListener("click",()=>{
-    
+    const pizzaFiltro = pizzasArray.filter(dato => dato.nombre == inputPizza.value);
+    imprimir(pizzaFiltro);
 });
